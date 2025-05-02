@@ -45,7 +45,7 @@ def perform_ocr(image):
 # Live Video Mode
 if mode == "Live Video":
     st.header("Live Video OCR")
-    st.write("Click the button below to start/stop the video feeding")
+    st.write("Click the button below to start/stop mbg the video feeding")
     
     # Initialize session state for video capture
     if 'run' not in st.session_state:
