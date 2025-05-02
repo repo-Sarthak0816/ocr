@@ -63,7 +63,7 @@ if mode == "Live Video":
         while st.session_state.run:
             ret, frame = cap.read()
             if not ret:
-                st.error("Failed to access webcam")
+                st.error("Failed to access webcaming")
                 break
             
             # Convert frame to RGB for display
